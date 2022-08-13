@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.flex-container{
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 40px;
+    text-align: center;
+}
+
+.flex-item-right{
+    background-color: aqua;
+    padding: 20px;
+    flex: 60%;
+}
+.flex-item-left{
+    background-color:red;
+    padding: 20px;
+    flex: 60%;
+}
+@media screen and (max-width:600px) {
+    .flex-container{
+    flex-direction: column;
+    }
+    
+}
